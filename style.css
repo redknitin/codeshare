@@ -1,0 +1,24 @@
+body { font-family: Cambria, Arial; }
+
+ul#navmenu { list-style: none; background-color: #d22; color: white; padding-left: 5px; margin-left: 0; height: 20px; }
+ul#navmenu li { padding-right: 15px; margin-left: 0; float: left; }
+ul#navmenu li a { color: white; text-decoration: none; }
+
+label.formposttocodeshare { display: block; }
+textarea#txtcode { width: 350px; height: 200px }
+textarea#txtnote { width: 350px; height: 100px }
+input.formposttocodeshare[type~=submit] { display: block; }
+
+div#recentcodeshare-wrapper { background-color: #ddd; width: 350px; padding: 1px 5px; margin: 0 0 20px 0; }
+ul#recentcodeshare { margin: 0; padding: 0 0 0 20px; }
+ul#recentcodeshare li a { text-decoration: none; }
+h2#recentcodeshare-heading { font-size: 12pt; margin: 0; padding: 0; }
+
+ul#codeshare-listing {}
+ul#codeshare-listing li a { text-decoration: none; }
+
+span.tstamp { font-size: 8pt; padding-left: 5px; color: #999; }
+
+p.codeshare-meta { margin: 0; }
+
+div#codeshare-code { border: 1px solid black; padding: 0 5px; margin: 5px 0; }
